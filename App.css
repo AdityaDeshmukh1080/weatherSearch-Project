@@ -1,0 +1,63 @@
+body{
+  height: 100%;
+  width: 100%;
+  image-resolution: initial;
+  /* background-image: url('https://img.freepik.com/free-vector/fluffy-clouds-blue-background-design_1017-38290.jpg?size=626&ext=jpg'); */
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=996&t=st=1688050230~exp=1688050830~hmac=304c6791769133816f0039bb93d86047176fc0aea6a55fc6f291a48236163bbd');
+  background-size: cover;
+  background-position: center;
+}
+
+.search-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  font-size: medium;
+  color: white;
+  border: 1px solid black  ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+  border: 2px solid #f5dbdb;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.place {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cloud-rain {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
